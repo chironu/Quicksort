@@ -59,7 +59,7 @@ $input =$_POST['input'];
 ?>
 <form action="?" method="post">
 <table>
-<tr><td colspan="2" align="center"><h1>Quick Sort</h1></td></tr>
+<tr><td colspan="2" align="center"><h1>Quick Sort by nu</h1></td></tr>
   <tr><td>Data Input:</td><td><textarea name="input" id="input" rows="5" cols="100"><?=$input?></textarea></td></tr>
    <tr><td></td><td> <input type="button" value="Random input" name="random" onclick="random_data();"> <input type="button" value="Reset input" name="reset" onclick="reset_data();"> <input type="submit" value="Start Sort" name="submit"></td></tr>
    </table>
